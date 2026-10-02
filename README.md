@@ -9,9 +9,17 @@ file. The 3D structure appears on the left and the entry's mmCIF categories and 
 Select any field to see its dictionary definition, check the entry's value against the declared type, range
 and enumeration, and highlight the atoms that row describes in 3D.
 
-| DNA: 1BNA (B-DNA dodecamer), coloured by chain | Protein: 4HHB (human deoxyhaemoglobin), coloured by chain |
-|---|---|
-| ![mmcifXplorer showing the B-DNA dodecamer 1BNA](docs/screenshots/dna_1bna.png) | ![mmcifXplorer showing human deoxyhaemoglobin 4HHB](docs/screenshots/protein_4hhb.png) |
+## Screenshots
+
+**DNA:** 1BNA, the B-DNA (Drew–Dickerson) dodecamer, coloured by chain.
+
+![mmcifXplorer showing the B-DNA dodecamer 1BNA](docs/screenshots/dna_1bna.png)
+
+**Protein:** 4HHB, human deoxyhaemoglobin (α₂β₂ tetramer with four haem groups), coloured by chain.
+
+![mmcifXplorer showing human deoxyhaemoglobin 4HHB](docs/screenshots/protein_4hhb.png)
+
+## Quick start
 
 ```bash
 conda activate biopyc          # or: conda env create -f environment.yml
