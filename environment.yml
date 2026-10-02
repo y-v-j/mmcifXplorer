@@ -1,0 +1,14 @@
+name: mmcifxplorer
+channels: [conda-forge]
+dependencies:
+  - python>=3.11
+  - dash>=2.16          # clientside set_props is used for viewer resizing
+  - dash-bio>=1.0.2
+  - dash-bootstrap-components>=1.5
+  - plotly>=5.20
+  - gemmi>=0.6.5
+  - numpy
+  - pandas
+  - scipy
+  - requests
+  - pytest

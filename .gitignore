@@ -1,0 +1,30 @@
+# --- Downloaded / generated data (re-created automatically on first run) ---
+# Dictionaries, their JSON cache, cached PDB/AlphaFold entries and uploads.
+datasets/
+
+# --- Reference material, not needed to run or understand the code ---
+# The IUCr reprints forbid redistribution; the other PDFs are background reading.
+docs/*.pdf
+docs/instructions.md
+docs/mmcif_dictionary_keys.txt
+docs/mmcif_resources.txt
+# Earlier HTML/Streamlit prototypes the dashboard was modelled on.
+previous/
+
+# --- Python / tool caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Test artefacts (tests/ui_smoke.py screenshots) ---
+ui_*.png
+
+# --- Editor / OS files ---
+.directory
+.DS_Store
+.vscode/
+.idea/
+.obsidian/
