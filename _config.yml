@@ -1,0 +1,20 @@
+# GitHub Pages: README.md rendered with the Midnight Ink theme (_layouts/default.html).
+lang: en
+author: Yogesh
+tagline: "Dashboard for PDBx/mmCIF files"
+nav:
+  - title: "Screenshots"
+    url: "#screenshots"
+  - title: "Quick start"
+    url: "#quick-start"
+  - title: "Manual"
+    url: "#user-manual"
+license_name: "MIT"
+copyright: "© 2026 Yogesh"
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /docs/screenshots/protein_4hhb.png
+plugins:
+  - jekyll-seo-tag
